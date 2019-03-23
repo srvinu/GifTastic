@@ -12,7 +12,7 @@
 // Adding Image to the page
   function getJSON(aniSelect){
     $('#gImg').empty();
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q="+aniSelect+"&api_key=RXNS9yy1Iamexpkd9gQ9PXk0gJX7Sc7h&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q="+aniSelect+"&api_key=RXNS9yy1Iamexpkd9gQ9PXk0gJX7Sc7h&limit=10";
     $.ajax({
     url: queryURL,
     method: "GET"
